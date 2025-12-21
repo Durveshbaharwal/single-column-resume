@@ -3,7 +3,7 @@ import type { Profile } from './types';
 export const profile: Profile = {
     name: "Durvesh Baharwal",
     title: "Full Stack AI Engineer",
-    summary: "Full Stack AI Engineer with 4+ years of professional experience in data science, AI automation, artificial intelligence and machine learning. Proven ability to build scalable, agentic AI workflows, automate social media and email marketing processes, and develop intelligent computer vision systems. Skilled in Python, LLM APIs, Streamlit, N8N, Selenium, and cloud deployment using Docker & AWS.",
+    summary: "Full Stack AI Engineer with 4+ years in AI/ML, data science, and automation. Expert in building scalable agentic workflows, automating marketing processes, and developing advanced computer vision systems. Skilled in Python, LLMs, Streamlit, n8n, Selenium, Docker, and AWS.",
     contact: {
         email: "mail.durveshbaharwal@gmail.com",
         phone: "9359996075",

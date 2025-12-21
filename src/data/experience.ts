@@ -11,27 +11,27 @@ export const experience: Experience[] = [
             {
                 name: "Industrial & Retail Object Tracking Systems (SaaS)",
                 tech: "YOLOv8, SAM2, AWS Lambda, Docker, OpenCV, React",
-                description: "Unified computer vision suite for industrial (pipe/bag counting) and retail tracking using YOLOv8, SAM2, and React. Deployed on AWS Lambda for automated inventory management, reducing shrinkage by 40%."
+                description: "Unified retail/industrial tracking suite (YOLOv8, SAM2, React) on AWS Lambda. Autonomous inventory management reduced shrinkage by 40%."
             },
             {
                 name: "Identity Verification & Anti-Spoofing System (SaaS)",
                 tech: "Deep Learning, OpenCV, Docker, FaceNet, TensorFlow, Android",
-                description: "Integrated identity verification and anti-spoofing system comparing live captures with Aadhar photos. deployed on Android/Docker with 92-95% accuracy in preventing presentation attacks."
+                description: "Identity verification & anti-spoofing system (92-95% accuracy). Deployed on Android/Docker to prevent presentation attacks."
             },
             {
                 name: "Diamond Defect Detection & Analysis",
                 tech: "Ghidra, Python, OpenCV, Reverse Engineering",
-                description: "Reverse-engineered Sarine Advisor file formats to enable custom AI defect detection, saving significant licensing costs ($50K+ annually)."
+                description: "Reverse-engineered Sarine formats for custom AI defect detection, saving $50K+/year in licensing."
             },
             {
                 name: "Automated Map Merging System",
                 tech: "OpenCV, IPAN99, Kohonen SOFM",
-                description: "Jigsaw puzzle-like map stitching system using curve matching and color similarity to merge 90+ sub-divisional maps without GIS data."
+                description: "Jigsaw-like map stitching system using curve matching/color similarity to merge 90+ sub-divisional maps without GIS data."
             },
             {
                 name: "Vehicle Detection & ANPR System",
                 tech: "YOLOv8, OCR, PyTorch, TensorFlow, OpenCV",
-                description: "Real-time system for vehicle detection and Automatic Number Plate Recognition (ANPR) using YOLOv8 and OCR. Implemented custom CNNs for bounding box prediction with >90% accuracy."
+                description: "Real-time ANPR & vehicle detection (YOLOv8, OCR). Implemented custom CNNs for >90% accuracy."
             },
             {
                 name: "Physiotherapy Pose Detection",
@@ -42,24 +42,24 @@ export const experience: Experience[] = [
             {
                 name: "Trading Automation System",
                 tech: "Python, ML Models, APIs",
-                description: "Automated trading system with ML-based price prediction and systematic risk management for 24/7 market participation."
+                description: "Algorithmic trading platform with ML-based price prediction and systematic risk management for 24/7 market participation."
             },
 
             {
                 name: "AI Alpha Tech Corporate & Portfolio Platforms",
                 tech: "React, TypeScript, Next.js, Headless CMS, Tailwind CSS",
-                description: "Developed modern, responsive corporate and portfolio websites featuring service showcases, blog platforms, and client testimonials. Optimized for SEO and performance using Next.js and Vite."
+                description: "Built responsive corporate/portfolio sites with Next.js/Vite. Optimized for SEO and performance."
             },
             {
                 name: "CCTV Analytics System (SaaS)",
                 tech: "YOLO, Face Recognition, Python, OpenCV",
-                description: "Intelligent video surveillance system for security and monitoring, featuring anomaly detection, person tracking, and real-time alerts."
+                description: "Intelligent video surveillance system for security and monitoring, incorporating anomaly detection, person tracking, and real-time alerts."
             },
 
             {
                 name: "AI Agent - Conversational Assistant",
                 tech: "Python, FastAPI, NLP, Intent Recognition",
-                description: "Custom AI agent for task automation and customer support, reducing manual interactions by 40% with natural language understanding."
+                description: "Custom AI agent for task automation/customer support, reducing manual interactions by 40% via NLP."
             },
 
         ]
@@ -74,17 +74,17 @@ export const experience: Experience[] = [
             {
                 name: "Fury (Booth) - Fashion E-commerce",
                 tech: "HTML5, CSS3, Vanilla JS, Swiper.js",
-                description: "Visually rich, responsive landing page for a high-end fashion brand, featuring carousel sliders and modern UI design."
+                description: "Responsive, visually rich landing page for high-end fashion, integrating carousel sliders and modern UI."
             },
             {
                 name: "Telegram-to-Email AI Bot",
                 tech: "AWS Lambda, Google Sheets, OpenAI, Python",
-                description: "Automated email bot running on AWS Lambda Cron. Fetches leads from Sheets, sends personalized emails, and updates status with 100% automation."
+                description: "Serverless AWS Lambda email agent. Automated lead fetching and personalized emailing (100% automation)."
             },
             {
                 name: "Social Media Automation (Selenium)",
                 tech: "Selenium, Python, Tkinter, GUI",
-                description: "Multi-platform content scheduler for Facebook, Instagram, LinkedIn, and Twitter using cookie-based session persistence and GUI management."
+                description: "Multi-platform content scheduler (FB, Insta, LinkedIn, Twitter) using cookie-based session persistence."
             },
             {
                 name: "Image Captioning System",
@@ -94,23 +94,15 @@ export const experience: Experience[] = [
             {
                 name: "Movie Recommendation System",
                 tech: "Python, Scikit-learn, Content-Based Filtering",
-                description: "Hybrid recommendation engine considering demographics and content similarities (plot, cast, crew) to suggest diverse movies."
+                description: "Hybrid recommendation engine merging demographics and content similarities (plot/cast) for diverse suggestions."
             },
             {
                 name: "Speech Emotion Recognition",
                 tech: "PyTorch, Hugging Face wav2vec2, SoundDevice",
-                description: "Real-time audio analysis tool utilizing pre-trained transformers to detect and classify emotional states from speech input."
+                description: "Real-time speech emotion recognition tool utilizing pre-trained transformers."
             },
-            {
-                name: "Alpine Trekkers Dashboard",
-                tech: "Power BI, Data Analytics",
-                description: "Interactive dashboard for event data analysis, providing insights into participant demographics and strategic marketing recommendations."
-            },
-            {
-                name: "DOT Seismic Detector",
-                tech: "Python, Streamlit, ObsPy, NASA Data",
-                description: "Scientific tool for analyzing planetary seismic data from Apollo/Mars missions, featuring signal processing and event detection."
-            },
+
+
             {
                 name: "Marketing & Team Automation System",
                 tech: "n8n, Agentic AI, Webhooks, Automation",
@@ -125,11 +117,9 @@ export const experience: Experience[] = [
         location: "Ahmedabad, Gujarat, India",
         contact: "SMT. Durga Digdarsini - digdarsini@sac.isro.gov.in",
         descriptionLines: [
-            "GNSS Positioning: Theoretical Groundwork For Adaptive Kalman Filter using MLE and MATLAB Simulation of Moving Window Average.",
-            "Spearheaded research in satellite-based positioning systems by developing and deploying an **Adaptive Kalman Filter algorithm**, improving navigation accuracy by **37%** and reducing signal noise by **30%** using **Maximum Likelihood Estimation (MLE)**.",
-            "Programmed a **MATLAB simulation of the Moving Window Average technique** for 5-epoch pseudorange averaging, achieving **87% accuracy** and increasing processing speed by **36%** across 100+ test runs.",
-            "Engineered a **hybrid GNSS positioning system** by combining **Least Squares Estimation** with **Machine Learning (Random Forest Regression)**, achieving **4.48m positional accuracy** and reducing **Mean Absolute Error to 0.000122**.",
-            "Conducted **seismic data analysis** on noisy datasets from the **Apollo and Mars InSight missions**, implementing noise filtering, backtracking, quadratic fitting, and moving averages to detect seismic events with **96% accuracy**, optimizing transmission efficiency."
+            "**GNSS Positioning Research**: Developed Adaptive Kalman Filter (MLE), improving navigation accuracy by **37%** and reducing noise by **30%**.",
+            "**Simulation & Hybrid Systems**: Simulated Moving Window Average (87% accuracy) and built hybrid GNSS system (Least Squares + Random Forest) for 4.48m positional accuracy.",
+            "**DOT Seismic Detector**: Analyzed Apollo/Mars seismic data using signal processing (noise filtering, quadratic fitting), achieving **96% event detection accuracy**."
         ]
     }
 ];
