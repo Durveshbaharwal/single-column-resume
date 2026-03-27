@@ -6,7 +6,9 @@ import { EducationItem } from './components/EducationItem';
 
 import { profile } from './data/profile';
 import { experience } from './data/experience';
+import { projects } from './data/projects';
 import { education } from './data/education';
+import { ProjectItem } from './components/ProjectItem';
 import { skills } from './data/skills';
 import { achievements } from './data/achievements';
 
@@ -29,6 +31,12 @@ function App() {
           <Section title="Work Experience" className="experience-section">
             {experience.map((exp, index) => (
               <ExperienceItem key={index} data={exp} />
+            ))}
+          </Section>
+
+          <Section title="Personal Projects" className="projects-section">
+            {projects.map((proj, index) => (
+              <ProjectItem key={index} data={proj} />
             ))}
           </Section>
 
