@@ -61,55 +61,15 @@ export const experience: Experience[] = [
                 tech: "Python, FastAPI, NLP, Intent Recognition",
                 description: "Custom AI agent for task automation/customer support, reducing manual interactions by 40% via NLP."
             },
+            {
+                name: "Taparia Tools Manufacturing and Packaging Optimization",
+                tech: "Prescriptive Analytics, NVIDIA cuOpt, WILP, Microsoft Azure ML, Data Analysis",
+                description: "Optimized manufacturing and packaging workflows using prescriptive analytics and NVIDIA cuOpt. Leveraged WILP for mathematical modeling and Microsoft Azure ML for cloud-scale data analysis."
+            },
 
         ]
     },
-    {
-        title: "Junior Full Stack Developer",
-        company: "N B Productions & Films",
-        period: "04/2021 - 05/2024",
-        location: "Pune, India",
-        contact: "nbproductionsandfilms@gmail.com - +91 98239 99633",
-        projects: [
-            {
-                name: "Fury (Booth) - Fashion E-commerce",
-                tech: "HTML5, CSS3, Vanilla JS, Swiper.js",
-                description: "Responsive, visually rich landing page for high-end fashion, integrating carousel sliders and modern UI."
-            },
-            {
-                name: "Telegram-to-Email AI Bot",
-                tech: "AWS Lambda, Google Sheets, OpenAI, Python",
-                description: "Serverless AWS Lambda email agent. Automated lead fetching and personalized emailing (100% automation)."
-            },
-            {
-                name: "Social Media Automation (Selenium)",
-                tech: "Selenium, Python, Tkinter, GUI",
-                description: "Multi-platform content scheduler (FB, Insta, LinkedIn, Twitter) using cookie-based session persistence."
-            },
-            {
-                name: "Image Captioning System",
-                tech: "TensorFlow, Keras, LSTM, CNN",
-                description: "Deep learning application combining CNNs for feature extraction and LSTMs to generate descriptive text captions for images."
-            },
-            {
-                name: "Movie Recommendation System",
-                tech: "Python, Scikit-learn, Content-Based Filtering",
-                description: "Hybrid recommendation engine merging demographics and content similarities (plot/cast) for diverse suggestions."
-            },
-            {
-                name: "Speech Emotion Recognition",
-                tech: "PyTorch, Hugging Face wav2vec2, SoundDevice",
-                description: "Real-time speech emotion recognition tool utilizing pre-trained transformers."
-            },
 
-
-            {
-                name: "Marketing & Team Automation System",
-                tech: "n8n, Agentic AI, Webhooks, Automation",
-                description: "Implemented n8n workflows and Agentic AI agents to automate marketing campaigns and streamline team management tasks, boosting operational efficiency."
-            }
-        ]
-    },
     {
         title: "Data Science & Research Intern",
         company: "Indian Space Research Organization (ISRO)",
