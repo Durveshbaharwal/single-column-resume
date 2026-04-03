@@ -8,7 +8,7 @@ export const profile: Profile = {
         email: "mail.durveshbaharwal@gmail.com",
         phone: "9359996075",
         location: "Nashik, India",
-        portfolio: "https://durveshbaharwal.github.io/Portfolio/index.html",
+        portfolio: "https://www.durveshbaharwal.com",
         linkedin: "https://linkedin.com/in/durvesh-baharwal",
         github: "https://github.com/Durveshbaharwal"
     }
