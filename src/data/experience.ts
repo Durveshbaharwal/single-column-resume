@@ -4,7 +4,7 @@ export const experience: Experience[] = [
     {
         title: "Associate Full Stack AI Engineer",
         company: "AI Alpha Tech, Nashik",
-        period: "06/2024 - Present",
+        period: "04/2025 - Present",
         location: "Nashik, India",
         contact: "hr@aialphatech.com - +91 86240 77980",
         projects: [
